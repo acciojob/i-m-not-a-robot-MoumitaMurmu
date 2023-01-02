@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  gap: 1em;
+  place-content: center;
+}
+img {
+  cursor: pointer;
+}
+.clicked {
+  opacity: 0.7;
+  border: 2px solid black;
+}
+
+button {
+  background: black;
+  color: white;
+  padding: 1em 2em;
+  margin: 1em;
+}
